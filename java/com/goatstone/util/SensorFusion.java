@@ -73,7 +73,7 @@ public class SensorFusion {
 
     public static final float EPSILON = 0.000000001f;
     private static final float NS2S = 1.0f / 1000000000.0f;
-    private float timestamp;
+    private long timestamp;
     private boolean initState = true;
 
     public static final int TIME_CONSTANT = 30;
